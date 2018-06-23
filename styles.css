@@ -6,6 +6,8 @@ body {
   font-weight: 300;
   color: #111;
   background: #edeff0;
+  background-image: url('svgs/background.svg');
+  background-repeat: repeat;
 }
 
 #container {
@@ -26,11 +28,13 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
+  transition: 1s color;
 }
 
 a:hover {
   color: #111;
 }
+
 
 header {
   padding-top: 10px;
@@ -46,6 +50,59 @@ header nav ul li {
   margin-right: 20px;
 }
 
+.icons {
+  fill: currentColor;
+}
+
+.svg-hw {
+  width: 24px;
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
+
+.pawprinttwo {
+  display: none;
+  
+}
+.paw {
+  color: #f4c6a6;
+  transition: 2.5s;
+}
+
+.paw:hover {
+  color: #000;
+}
+
+.h1print {
+	display: block;
+	text-align: center;
+}
+
+.coat-colors {
+	display: inline-block;
+}
+li p {
+  margin-top: 0;
+  text-align: center;
+  color: #eaaa7f
+}
+
+.sable {
+  color: #ba8058;
+}
+
+.pawn {
+  color: #eaaa7f;
+}
+
+.red {
+  color: rgb(133, 77, 42);
+}
+
+.stone {
+  color: rgb(82, 89, 94);
+}
+ 
 main {
   padding-top: 50px;
 }
@@ -59,4 +116,15 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+@media (min-width: 425px) {
+	.pawprinttwo {
+    display: block;
+    color: #eaaa7f;
+    transition: 1s color;
+  }
+	.h1print {
+		display: none;
+  }
 }
