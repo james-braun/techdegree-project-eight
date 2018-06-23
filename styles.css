@@ -81,8 +81,10 @@ header nav ul li {
 .coat-colors {
 	display: inline-block;
 }
+
 li p {
   margin-top: 0;
+  margin-right: 30px;
   text-align: center;
   color: #eaaa7f
 }
@@ -124,6 +126,7 @@ footer {
     color: #eaaa7f;
     transition: 1s color;
   }
+
 	.h1print {
 		display: none;
   }
